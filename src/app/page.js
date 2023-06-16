@@ -50,8 +50,10 @@ export default function Home() {
         const item2 = "Reservado para uso fututo e testes";
         setInformacao([...informacao, ...item1, ...item2]);
        }
+  }
 
   const Informacao = () => {
+
     if(informacao[0] == "Classe: D" || informacao[0] == "Classe: E" ){
       return (
       <ul>
@@ -74,13 +76,8 @@ export default function Home() {
         <li className={styles.itens}>{informacao[5]}</li>
       </ul>
     )
-    }
-    
-
-    }
-
-    
   }
+}
 
   return (
     <main className={styles.main}>
@@ -102,7 +99,7 @@ export default function Home() {
 
        <div className={styles.informacao}>
         <h2>Ip Verificado</h2>
-         <Informacao/>
+         <Informacao />
        </div>
        </div>
        
