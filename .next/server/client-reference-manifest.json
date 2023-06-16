@@ -229,16 +229,45 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/app/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/page.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\src\\app\\layout": [
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\layout": [
       "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -246,7 +275,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -254,7 +283,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -262,7 +291,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -270,7 +299,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -278,7 +307,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -286,15 +315,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -302,7 +323,15 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -310,7 +339,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -318,7 +347,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -326,7 +355,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -334,7 +363,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -342,7 +371,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -350,7 +379,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -358,7 +387,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -366,15 +395,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -382,7 +403,15 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -390,7 +419,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -398,7 +427,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -406,7 +435,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -414,7 +443,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -422,7 +451,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -430,7 +459,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -438,7 +467,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -446,15 +475,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -462,7 +483,15 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -470,7 +499,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -478,7 +507,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -486,7 +515,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -494,7 +523,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -502,7 +531,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -510,7 +539,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -518,7 +547,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -526,7 +555,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -534,7 +563,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -542,7 +571,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -550,7 +579,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -558,7 +587,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -566,7 +595,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -574,7 +603,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -582,7 +611,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -590,7 +619,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -598,7 +627,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -606,7 +635,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -614,7 +643,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -622,7 +651,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -630,7 +659,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -638,7 +667,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -646,7 +675,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -654,7 +683,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -662,7 +691,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -670,15 +699,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -686,7 +707,15 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -694,7 +723,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -702,7 +731,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -710,7 +739,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -718,7 +747,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -726,7 +755,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -734,15 +763,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -750,7 +771,15 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -758,7 +787,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -766,7 +795,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -774,7 +803,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -782,7 +811,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -790,7 +819,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -798,7 +827,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -806,7 +835,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -814,7 +843,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -822,7 +851,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -830,7 +859,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -838,7 +867,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -846,7 +875,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -854,7 +883,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -862,7 +891,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -870,7 +899,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -878,7 +907,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -886,7 +915,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -894,7 +923,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -902,7 +931,7 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -910,14 +939,45 @@
       ],
       "async": false
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\src\\app\\globals.css#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page.js": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page.js#": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page.js#default": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "D:\\DOCUMENTOS\\git clones\\redes_ip-calculadora\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
