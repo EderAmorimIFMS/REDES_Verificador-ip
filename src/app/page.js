@@ -6,13 +6,30 @@ export default function Home() {
 
     const [ip, setIp] = useState('')
     const [octeto, setOctetos] = useState([])
-    const [informacao, setInformacao] = useState([])
+    const [classe, setClasse] = useState('')
+    const [masc_padrao] = useState('')
+    const [masc_binario] = useState('')
+    const [funcao_masc] = useState('')
+    const [rede] = useState('')
+    const [primeiro_host] = useState('')
+    const [broadCast] = useState('')
+
+    
+    const informacao = {
+      classe: classe,
+      masc_padrao: masc_padrao,
+      masc_binario: masc_binario,
+      funcao_masc: funcao_masc,
+      rede: rede,
+      primeiro_host: primeiro_host,
+      broadCast: broadCast,
+    }
 
 
     setOctetos(ip.split(".")) 
 
        if(octeto[0] >= 1 && octeto[0] <= 126){
-          const item1 = "Classe: A";
+          setClasse("A");
           const item2 = "Máscara padrão: 255.0.0.0";
           const item3 = "Máscara em Binário: 11111111.00000000.00000000.00000000";
           const item4 = "Função da Máscara: REDE.HOST.HOST.HOST";
