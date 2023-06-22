@@ -1,4 +1,4 @@
-// File: C:\Users\laboratorio\Downloads\redes_ip-calculadora\src\app\page.js
+// File: /data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,18 +1,18 @@
 {
   "cssImports": {
-    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\layout.js": [
-      "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\globals.css"
+    "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page.js": [
+      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page.module.css"
     ],
-    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page.js": [
-      "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page.module.css"
+    "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/layout.js": [
+      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"]}],\"import\":\"Inter\",\"path\":\"src/app/layout.js\",\"variableName\":\"inter\"}",
+      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/globals.css"
     ]
   },
   "cssModules": {
-    "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page": [
-      "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\globals.css",
-      "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\laboratorio\\Downloads\\redes_ip-calculadora\\src\\app\\page.module.css"
+    "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page": [
+      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/globals.css",
+      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"]}],\"import\":\"Inter\",\"path\":\"src/app/layout.js\",\"variableName\":\"inter\"}",
+      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page.module.css"
     ]
   }
 }

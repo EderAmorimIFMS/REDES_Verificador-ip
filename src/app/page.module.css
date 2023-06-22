@@ -1,23 +1,27 @@
 .main {
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  justify-content: space-around;
 }
 
-.fieldset{
+.container {
+  display: flex;
+  flex-direction: rows;
+}
+
+.busca{
   display: block;
-  border-radius: 10px;
-  border: 2px solid black;
-  width: 500px;
-  height: 200px;
-  margin: 250px 400px ;
+  border: 1px solid black;
+  width: 450px;
 }
 
 .legend{
-  font-size: 50px;
+  font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: black;
+}
+
+.informacao {
+  display: block;
+  border: 1px solid black;
 }
 
 .inputText{
@@ -30,15 +34,8 @@
    margin-bottom: 15px;
 }
 
-.divB{
-  border-top: 1px solid black;
-  padding-bottom: 5px;
-}
-
-.buttom{
-  margin-top: 15px;
-  width: 500px;
-  height: 200px;
+.botao{
+  margin-top: 40px;
   border: 2px solid black;
   border-radius: 5px;
   font-size: 20px;
