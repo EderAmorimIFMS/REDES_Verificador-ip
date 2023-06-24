@@ -9,10 +9,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
-        <footer>
+        <header>
           <h5>Autores: Eder Amorim & Erick Amorim - Geminys Enterprises</h5>
-        </footer>
+        </header>
+        {children}
       </body>
     </html>
   )
