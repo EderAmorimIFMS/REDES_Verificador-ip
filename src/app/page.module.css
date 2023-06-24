@@ -1,43 +1,93 @@
 .main {
   text-align: center;
+  background-color: #f2f2f2;
 }
 
 .container {
-  display: flex;
-  flex-direction: rows;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
-.busca{
+.card{
   display: block;
-  border: 1px solid black;
-  width: 450px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
 }
 
 .legend{
-  font-size: 40px;
+  font-size: 1.9rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: black;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.informacao {
-  display: block;
-  border: 1px solid black;
+.legend_i{
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  text-shadow: 1px 1px #000000;
+}
+
+.itens{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  text-align: left;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
 }
 
 .inputText{
-   border-bottom: 2px solid black; 
-   border-radius: 10px;
-   width: 400px;
-   font-size: 20px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   margin-top: 30px;
-   margin-bottom: 15px;
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .botao{
-  margin-top: 40px;
-  border: 2px solid black;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #45a049;
+}
+
+.botao_reset{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botao_reset:hover {
+  background-color: #FF3333;
+}
+
+.rodape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
   border-radius: 5px;
-  font-size: 20px;
-  background-color: #afffbb;
 }

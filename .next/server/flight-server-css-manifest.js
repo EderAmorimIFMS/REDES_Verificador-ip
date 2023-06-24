@@ -1,18 +1,4 @@
 self.__RSC_CSS_MANIFEST={
-  "cssImports": {
-    "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page.js": [
-      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page.module.css"
-    ],
-    "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/layout.js": [
-      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"]}],\"import\":\"Inter\",\"path\":\"src/app/layout.js\",\"variableName\":\"inter\"}",
-      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/globals.css"
-    ]
-  },
-  "cssModules": {
-    "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page": [
-      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/globals.css",
-      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"]}],\"import\":\"Inter\",\"path\":\"src/app/layout.js\",\"variableName\":\"inter\"}",
-      "/data/data/com.termux/files/home/GitHub/redes_ip-calculadora/src/app/page.module.css"
-    ]
-  }
+  "cssImports": {},
+  "cssModules": {}
 }
