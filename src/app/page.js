@@ -22,7 +22,7 @@ export default function Home() {
   function verificar(){
     if(octeto[0] == '' || octeto[1] == '' || octeto[2] == '' || octeto[3] == '' || octeto[0] >= 256 || octeto[1] >= 256 || octeto[2]  >= 256 || octeto[3] >= 256){
       alert("Verifique se digitou corretamente,  por favor!");
-    }
+      setBtnPress(false);
   }
     
   function calcularIp(){
@@ -135,29 +135,22 @@ export default function Home() {
             required
           />
           <button 
-          onClick={() => {
-            calcularIp();
-            verificar();
-            setBtnPress(true);  
-          }}
-          className={styles.botao}>Verificar</button>
+            onClick={() => {
+              calcularIp();
+              verificar();
+              setBtnPress(true);  
+            }}
+            className={styles.botao}>Verificar</button>
         </div>
         
       {btnPress && 
         <div className={styles.card}>
           <h2 className={styles.legend_i}>IP Verificado</h2>
           <Informacao />
-        
-            <button onClick={reset} className={styles.botao_reset}>Tentar outro endereço IP?</button>
-        
+            <button onClick={reset} className={styles.botao_reset}>Tentar outro IP?</button>
         </div>
       }
-      
        </div>
-      
-      <div>
-        <h5 className={styles.rodape}>Autores: Eder Amorim & Erick Amorim - Geminys Entenprises</h5>
-      </div>
     </div>
   );
 }
