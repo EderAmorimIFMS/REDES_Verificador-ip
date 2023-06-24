@@ -5,6 +5,7 @@ import styles from './page.module.css';
 import './globals.css';
 
 export default function Home() {
+  
   const [ip, setIp] = useState('');
   const [octeto, setOcteto] = useState([]);
   const [classe, setClasse] = useState('');
@@ -19,15 +20,16 @@ export default function Home() {
     
     
   function verificar(){
-    if(octeto[0] == '' || octeto[1] == '' || octeto[2] == '' || octeto[3] == '' || ){
-      altert("Digite antes de verificar")
+    if(octeto[0] == '' || octeto[1] == '' || octeto[2] == '' || octeto[3] == '' || octeto[0] >= 256 || octeto[1] >= 256 || octeto[2]  >= 256 || octeto[3] >= 256){
+      alert("Verifique se digitou corretamente,  por favor!");
     }
   }
     
   function calcularIp(){
     setOcteto(ip.split("."));
     
-    if(octeto[0] >= 1 && octeto[0] <= 126){
+    if(btnPress){
+      if(octeto[0] >= 1 && octeto[0] <= 126){
       setClasse('A');
       setMasc_padrao('255.0.0.0');
       setMasc_binario('11111111.00000000.00000000.00000000');
@@ -36,7 +38,6 @@ export default function Home() {
       setPrimeiro_host(`${octeto[0]}.0.0.1`);
       setUltimo_host(`${octeto[0]}.255.255.254`);
       setBroadCast(`${octeto[0]}.255.255.255`);
-      setBtnPress(true);
     } else if(octeto[0] >= 128 && octeto[0] <= 191){
       setClasse('B');
       setMasc_padrao('255.255.0.0');
@@ -46,7 +47,6 @@ export default function Home() {
       setPrimeiro_host(`${octeto[0]}.${octeto[1]}.0.1`);
       setUltimo_host(`${octeto[0]}.${octeto[1]}.255.254`);
       setBroadCast(`${octeto[0]}.${octeto[1]}.255.255`);
-      setBtnPress(true);  
     } else if(octeto[0] >= 192 && octeto[0] <= 223){
       setClasse('C');
       setMasc_padrao('255.255.255.0');
@@ -55,28 +55,30 @@ export default function Home() {
       setRede(`${octeto[0]}.${octeto[1]}.${octeto[2]}.0`);
       setPrimeiro_host(`${octeto[0]}.${octeto[1]}.${octeto[2]}.1`);
       setUltimo_host(`${octeto[0]}.${octeto[1]}.${octeto[2]}.254`);
-      setBroadCast(`${octeto[0]}.${octeto[1]}.${octeto[2]}.255`);  
-      setBtnPress(true); 
+      setBroadCast(`${octeto[0]}.${octeto[1]}.${octeto[2]}.255`);
     } else if(octeto[0] >= 224 && octeto[0] <= 239){
       setClasse('D');
       setMasc_padrao('Utilizado para tráfego Multicast');
-      setBtnPress(true);
     } else if(octeto[0] >= 240 && octeto[0] <= 255){
       setClasse('E');
       setMasc_padrao('Reservado para uso futuro e testes');
-      setBtnPress(true);
+    }
     }
   };
   
+  useEffect(() => {
+    calcularIp();
+  }, [classe, masc_padrao, masc_binario, funcao_masc, rede, primeiro_host, ultimo_host, broadCast, ip, octeto]);
+  
   const informacao  = ({
-        a_classe: classe,
-        a_masc_padrao: masc_padrao,
-        a_masc_binario: masc_binario,
-        a_funcao_masc: funcao_masc,
-        a_rede: rede,
-        o_primeiro_host: primeiro_host,
-        o_ultimo_host: ultimo_host,
-        o_broadCast: broadCast,
+     a_classe: classe,
+     a_masc_padrao: masc_padrao,
+     a_masc_binario: masc_binario,
+     a_funcao_masc: funcao_masc,
+     a_rede: rede,
+     o_primeiro_host: primeiro_host,
+     o_ultimo_host: ultimo_host,
+     o_broadCast: broadCast,
   });
 
   function reset(){
@@ -132,16 +134,27 @@ export default function Home() {
             pattern="\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"
             required
           />
-          <button onClick={calcularIp} className={styles.botao}>Verificar</button>
+          <button 
+          onClick={() => {
+            calcularIp();
+            verificar();
+            setBtnPress(true);  
+          }}
+          className={styles.botao}>Verificar</button>
         </div>
+        
+      {btnPress && 
         <div className={styles.card}>
           <h2 className={styles.legend_i}>IP Verificado</h2>
           <Informacao />
-          {btnPress && 
+        
             <button onClick={reset} className={styles.botao_reset}>Tentar outro endereço IP?</button>
-          }
+        
         </div>
-      </div>
+      }
+      
+       </div>
+      
       <div>
         <h5 className={styles.rodape}>Autores: Eder Amorim & Erick Amorim - Geminys Entenprises</h5>
       </div>
