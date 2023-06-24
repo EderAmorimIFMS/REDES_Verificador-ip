@@ -23,6 +23,7 @@ export default function Home() {
     if(octeto[0] == '' || octeto[1] == '' || octeto[2] == '' || octeto[3] == '' || octeto[0] >= 256 || octeto[1] >= 256 || octeto[2]  >= 256 || octeto[3] >= 256){
       alert("IP inválido. Verifique se digitou corretamente, ou se está dentro das regras do ipv4,  por favor!");
       setBtnPress(false);
+    }
   }
     
   function calcularIp(){
