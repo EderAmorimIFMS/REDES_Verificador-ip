@@ -6,6 +6,7 @@
 
 ## Link de hospedagem na Vercel.
 - https://redes-verificador-ip.vercel.app/;
+- ![](- https://redes-verificador-ip.vercel.app/)
 
 ## Quer executar no seu PC?
 ### No Terminal:
