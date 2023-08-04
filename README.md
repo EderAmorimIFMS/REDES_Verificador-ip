@@ -4,7 +4,7 @@
 - Node js;
 - CSS;
 
-## Link na Vercel.
+## Link de hospedagem na Vercel.
 - https://redes-verificador-ip.vercel.app/;
 
 ### Quer executar?
