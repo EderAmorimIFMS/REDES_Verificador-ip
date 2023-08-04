@@ -1,3 +1,14 @@
-Depois do git clone 
-npm i para baixar a node_modules
-e npm run dev para rodar a api
+# REDES_Verificador-ip .
+### Tecnologias Usadas:
+- Next;
+- Node js;
+- CSS;
+
+## Link na Vercel.
+- https://redes-verificador-ip.vercel.app/;
+
+### Quer executar?
+#### No Terminal do seu PC:
+- git clone https://github.com/EderAmorimIFMS/REDES_Verificador-ip/
+- npm i 
+- npm run dev
