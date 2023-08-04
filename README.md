@@ -1,5 +1,5 @@
 # REDES_Verificador-ip .
-### Tecnologias Usadas:
+## Tecnologias Usadas:
 - Next;
 - Node js;
 - CSS;
@@ -7,8 +7,8 @@
 ## Link de hospedagem na Vercel.
 - https://redes-verificador-ip.vercel.app/;
 
-### Quer executar?
-#### No Terminal do seu PC:
+## Quer executar no seu PC?
+### No Terminal:
 - git clone https://github.com/EderAmorimIFMS/REDES_Verificador-ip/
 - npm i 
 - npm run dev
